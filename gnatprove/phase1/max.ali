@@ -1,0 +1,47 @@
+V "GNAT Lib v2020"
+A -x
+A ada
+A -gnatA
+A -gnatc
+P GP FX
+
+RN
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U max%b			max.adb			7972892e OO PK
+
+U max%s			max.ads			be874c45 OO PK
+
+D max.ads		20231108031734 be874c45 max%s
+D max.adb		20231113180800 c7f5c56b max%b
+D system.ads		20200819050647 085b6ffb system%s
+G a Z
+X 1 max.ads
+1K9*Max 17l5 17e8 2|1b14 28l5 28t8
+5N4*Min_Table_Size 10r32
+6N4*Max_Table_Size 10r50
+7N4*Min_Content 11r32
+8N4*Max_Content 11r47
+10I9*Index_Range<short_short_integer> 12r33 14r50 15r31 2|5r50 6r11 6r26
+. 7r11 7r26 11r27 12r41
+11I9*Content_Range<short_integer> 12r49 2|11r61 12r69
+12A9*Our_Array(11I9)<10I9> 14r32 2|5r32
+14V13*Arrays_Max{10I9} 14>25 15r49 2|5b13 26l8 26t18
+14a25 A{12A9} 15r46 15r71 2|5b25 11r53 11r79 11r85 12r61 12r87 12r93 19r13
+. 19r22
+15i26 N{10I9} 15r74
+X 2 max.adb
+6i7 X{1|10I9} 9r13 11r48 11r81 12r89 15r23 17r48 19r16 20m13 20r18 25r14
+7i7 Y{1|10I9} 9r18 11r87 12r36 12r95 15r27 17r44 19r25 22m13 22r18
+11i22 K<short_short_integer> 11r55
+12i31 Q<short_short_integer> 12r63
+
+QQ SPARKVERSION SPARK Community 2020 (20200818)
+GG EK_DIRECT_CALLS max__arrays_max 0
+GG EK_GLOBALS max__arrays_max local FALSE E_FUNCTION FALSE ORIGIN_FLOW 1 max proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 0 FALSE FALSE TRUE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS max 0
+GG EK_GLOBALS max local FALSE E_PACKAGE TRUE ORIGIN_FLOW 0 proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 initializes 0 calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_FLOW_SCOPE max__arrays_max FALSE FALSE FALSE FALSE TRUE max VISIBLE_PART
+GG EK_FLOW_SCOPE max TRUE FALSE FALSE FALSE FALSE __standard
+GG EK_END_MARKER

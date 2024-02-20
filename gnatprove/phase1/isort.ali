@@ -1,0 +1,59 @@
+V "GNAT Lib v2020"
+A -x
+A ada
+A -gnatA
+A -gnatc
+P GP FX
+
+RN
+RV NO_DIRECT_BOOLEAN_OPERATORS
+RV NO_DYNAMIC_SIZED_OBJECTS
+RV NO_IMPLEMENTATION_ASPECT_SPECIFICATIONS
+RV NO_IMPLEMENTATION_PRAGMAS
+RV NO_ELABORATION_CODE
+
+U isort%b		isort.adb		71dfc68c OO PK
+W sort_types%s		sort_types.ads		sort_types.ali
+
+U isort%s		isort.ads		2fe28f50 OO PK
+W sort_types%s		sort_types.ads		sort_types.ali
+
+D isort.ads		20231109215907 f551676f isort%s
+D isort.adb		20231119122905 5e3d49dc isort%b
+D sort_types.ads	20231113201555 dab3e83f sort_types%s
+D system.ads		20200819050647 085b6ffb system%s
+G a Z
+X 1 isort.ads
+3K9*ISort 23l5 23e10 2|3b14 57l5 57t10
+7V13*Sorted{boolean} 7>20 7>38 7>52 21s14 2|15s41 31s34 34s35
+7a20 A{3|3A9} 10r35 10r43 13r21 13r32 14r21 14r36
+7i38 I{positive} 10r21 13r16
+7i52 J{natural} 10r26 14r16
+10i16 K{integer} 10r37 10r45
+18U14*Insertion_Sort 18=30 2|7b14 54l8 54t22
+18a30 A{3|3A9} 20r13 21r21 21r24 21r33 2|7b30 12r16 12r31 15r21 15r48 15r51
+. 21r15 28r25 28r68 28r83 31r41 31r44 34r42 36r40 36r67 36r79 39r54 43r37
+. 44r27 44r43 46m13 46r22 50m9
+X 2 isort.adb
+8i7 X{natural} 21m10 39r49 44r56 50r18
+9i7 J{3|2I12} 22m10 28r36 28r47 31r53 34r45 36r36 36r51 36r69 36r81 39r35
+. 39r56 42r32 44r23 44r46 46r16 46r25 47m13 47r18 50r12
+12i11 I{integer} 15r17 15r60 21r18 22r15 28r52 28r63 34r52 36r55 39r39 42r37
+. 43r32
+X 3 sort_types.ads
+1K9*Sort_Types 1|1w6 1r22 2|1w6 1r22 3|4e15
+2I12*Index{integer} 2|9r11
+3A9*Nat_Array(natural)<integer> 1|7r27 18r41 2|7r41
+
+QQ SPARKVERSION SPARK Community 2020 (20200818)
+GG EK_DIRECT_CALLS isort__sorted 0
+GG EK_GLOBALS isort__sorted local FALSE E_FUNCTION FALSE ORIGIN_FLOW 1 isort proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 0 FALSE FALSE TRUE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS isort__insertion_sort 1 isort__sorted
+GG EK_GLOBALS isort__insertion_sort local FALSE E_PROCEDURE FALSE ORIGIN_FLOW 1 isort proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 calls_proof 0 calls 0 calls_conditional 0 FALSE TRUE TRUE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_DIRECT_CALLS isort 0
+GG EK_GLOBALS isort local FALSE E_PACKAGE TRUE ORIGIN_FLOW 0 proper_proof_in 0 proper_input 0 proper_output 0 refined_proof_in 0 refined_input 0 refined_output 0 initializes 0 calls_proof 0 calls 0 calls_conditional 0 local_var 0 FALSE FALSE FALSE ENTRY_CALLS 0 SUSPENDS_ON 0 UNSYNCH_ACCESSES 0 LOCKS 0
+GG EK_FLOW_SCOPE sort_types TRUE FALSE FALSE FALSE FALSE __standard
+GG EK_FLOW_SCOPE isort__insertion_sort FALSE FALSE FALSE FALSE TRUE isort VISIBLE_PART
+GG EK_FLOW_SCOPE isort TRUE FALSE FALSE FALSE FALSE __standard
+GG EK_FLOW_SCOPE isort__sorted FALSE FALSE FALSE FALSE TRUE isort VISIBLE_PART
+GG EK_END_MARKER

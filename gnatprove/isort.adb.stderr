@@ -1,0 +1,38 @@
+isort.adb:8:07: info: initialization of "X" proved
+isort.adb:9:07: info: initialization of "J" proved
+isort.adb:12:24: info: overflow check proved
+isort.adb:15:17: info: loop invariant initialization proved
+isort.adb:15:17: medium: loop invariant might not be preserved by an arbitrary iteration, cannot prove I = A'First + 1 or else Sorted(A, A'First, I - 1) (e.g. when A'First = 0 and A'Last = 0 and I = 0)
+isort.adb:15:29: info: overflow check proved
+isort.adb:15:41: info: precondition proved
+isort.adb:15:52: info: range check proved
+isort.adb:15:62: info: overflow check proved
+isort.adb:15:62: info: range check proved
+isort.adb:21:18: info: index check proved
+isort.adb:22:15: info: range check proved
+isort.adb:28:25: info: loop invariant initialization proved
+isort.adb:28:76: info: overflow check proved
+isort.adb:31:34: info: precondition proved
+isort.adb:31:45: info: range check proved
+isort.adb:34:34: medium: loop invariant might not be preserved by an arbitrary iteration, cannot prove Sorted(A, J + 1, I) (e.g. when A = (others => 0) and A'First = 2 and A'Last = 2 and I = 0)
+isort.adb:34:35: info: precondition proved
+isort.adb:34:52: info: range check proved
+isort.adb:36:71: info: index check proved
+isort.adb:36:83: info: index check proved
+isort.adb:39:58: info: index check proved
+isort.adb:42:32: info: assertion proved
+isort.adb:43:32: info: assertion proved
+isort.adb:44:48: info: index check proved
+isort.adb:46:16: info: index check proved
+isort.adb:46:27: info: index check proved
+isort.adb:47:20: info: range check proved
+isort.adb:50:12: info: index check proved
+isort.ads:10:37: info: index check proved
+isort.ads:10:46: info: overflow check proved
+isort.ads:10:46: info: index check proved
+isort.ads:13:39: info: overflow check proved
+isort.ads:14:29: info: overflow check proved
+isort.ads:21:14: info: precondition proved
+isort.ads:21:14: medium: postcondition might fail, cannot prove Sorted(A, A'First, A'last) (e.g. when A = (others => 0) and A'First = 1 and A'Last = 1)
+isort.ads:21:25: info: range check proved
+isort.ads:21:34: info: range check proved

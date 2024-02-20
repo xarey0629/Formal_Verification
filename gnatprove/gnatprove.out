@@ -1,0 +1,30 @@
+Summary of SPARK analysis
+=========================
+
+--------------------------------------------------------------------------------------------
+SPARK Analysis results        Total      Flow   CodePeer      Provers   Justified   Unproved
+--------------------------------------------------------------------------------------------
+Data Dependencies                 .         .          .            .           .          .
+Flow Dependencies                 .         .          .            .           .          .
+Initialization                    2         2          .            .           .          .
+Non-Aliasing                      .         .          .            .           .          .
+Run-time Checks                  29         .          .    29 (CVC4)           .          .
+Assertions                        8         .          .     6 (CVC4)           .          2
+Functional Contracts              6         .          .     5 (CVC4)           .          1
+LSP Verification                  .         .          .            .           .          .
+Termination                       1         .          .     1 (CVC4)           .          .
+Concurrency                       .         .          .            .           .          .
+--------------------------------------------------------------------------------------------
+Total                            46    2 (4%)          .     41 (89%)           .     3 (7%)
+
+
+max steps used for successful proof: 1
+
+Analyzed 2 units
+in unit isort, 3 subprograms and packages out of 3 analyzed
+  ISort at isort.ads:3 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (0 checks)
+  ISort.Insertion_Sort at isort.ads:18 flow analyzed (0 errors, 0 checks and 0 warnings) and not proved, 28 checks out of 31 proved
+  ISort.Sorted at isort.ads:7 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (5 checks)
+in unit max, 2 subprograms and packages out of 2 analyzed
+  Max at max.ads:1 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (0 checks)
+  Max.Arrays_Max at max.ads:14 flow analyzed (0 errors, 0 checks and 0 warnings) and proved (8 checks)

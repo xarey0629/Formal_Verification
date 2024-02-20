@@ -1,0 +1,8 @@
+max.adb:11:13: info: loop invariant initialization proved
+max.adb:11:13: info: loop invariant preservation proved
+max.adb:11:55: info: index check proved
+max.adb:12:63: info: index check proved
+max.adb:17:10: info: loop variant proved
+max.adb:20:20: info: range check proved
+max.adb:22:20: info: range check proved
+max.ads:15:17: info: postcondition proved
